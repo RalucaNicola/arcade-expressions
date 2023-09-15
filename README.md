@@ -11,3 +11,10 @@ for (var index in words) {
 }
 return expression
 ```
+
+
+## Create labels that replace \n with new line
+
+```
+Replace($feature.SITE_NAME, '\n', TextFormatting.NewLine)
+```
